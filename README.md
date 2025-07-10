@@ -2,14 +2,36 @@
 
 Automatically pipe Xcode build errors to Claude Code for instant analysis and fixes. No more copy-pasting screenshots!
 
+## 🎯 What is this?
+
+This automation system solves a common developer pain point: when Xcode builds fail, you typically have to:
+1. Read error messages in Xcode
+2. Screenshot or copy the errors
+3. Paste them into Claude
+4. Wait for analysis
+5. Manually apply fixes
+
+**With this automation:**
+- Xcode build errors are automatically captured
+- Errors are instantly sent to Claude Code
+- You get specific fixes and code suggestions
+- Works seamlessly with your existing workflow
+
 ## 🚀 Quick Start
 
 ### Option 1: Let Claude Set It Up (Recommended)
 
-1. Navigate to your Xcode project
-2. Copy the prompt from [HUMAN_SETUP_PROMPT.md](HUMAN_SETUP_PROMPT.md)
-3. Paste it into Claude
-4. Claude will handle everything
+Copy and paste this prompt into Claude:
+
+```
+Please download and set up the Xcode build automation system from https://github.com/ericzhou129/xcode-claude-automation - follow the CLAUDE_SETUP_INSTRUCTIONS.md file in the repo. Configure it for this project and let me know when it's ready.
+```
+
+Claude will:
+- Download all necessary files
+- Configure them for your specific project
+- Test the setup
+- Report when ready to use
 
 ### Option 2: Manual Setup
 
@@ -18,7 +40,20 @@ Automatically pipe Xcode build errors to Claude Code for instant analysis and fi
 curl -sL https://raw.githubusercontent.com/ericzhou129/xcode-claude-automation/main/setup-from-github.sh | bash
 ```
 
-## 🎯 What This Solves
+## 💡 How It Works
+
+When you run into build errors:
+
+1. **Run `./fix.sh`** (or have it run automatically with `./watch.sh`)
+2. The script:
+   - Runs `xcodebuild` and captures all output
+   - Extracts only relevant error messages
+   - Compresses and sends them to Claude Code
+3. Claude analyzes your specific errors and provides:
+   - Clear explanation of what's wrong
+   - Specific code fixes
+   - Context-aware suggestions
+4. You apply the fixes and continue coding
 
 **Before**: Build fails → Screenshot errors → Paste to Claude → Apply fixes manually
 
