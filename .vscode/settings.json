@@ -1,0 +1,17 @@
+{
+    "files.watcherExclude": {
+        "**/build/**": true,
+        "**/.git/**": true,
+        "**/node_modules/**": true,
+        "**/.build/**": true,
+        "**/DerivedData/**": true
+    },
+    "files.associations": {
+        "*.swift": "swift",
+        "*.h": "objective-c",
+        "*.m": "objective-c",
+        "*.mm": "objective-cpp"
+    },
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    "tasks.autoDetect": "on"
+}

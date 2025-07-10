@@ -1,0 +1,31 @@
+# Build outputs
+build/
+DerivedData/
+*.xcarchive
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# User-specific Xcode files
+*.xcuserstate
+xcuserdata/
+
+# VS Code (optional, included for full setup)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Temporary files
+*.tmp
+*~
+
+# Configuration backups
+config.sh.backup
+config.sh.old
