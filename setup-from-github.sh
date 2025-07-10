@@ -11,7 +11,7 @@ BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
 # GitHub repository URL (update this when you publish to GitHub)
-GITHUB_REPO="https://raw.githubusercontent.com/YOUR_USERNAME/xcode-claude-automation/main"
+GITHUB_REPO="https://raw.githubusercontent.com/ericzhou129/xcode-claude-automation/main"
 
 echo -e "${BLUE}🚀 Setting up Xcode + Claude Code automation from GitHub...${NC}"
 echo ""

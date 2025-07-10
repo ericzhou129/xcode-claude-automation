@@ -15,7 +15,7 @@ Automatically pipe Xcode build errors to Claude Code for instant analysis and fi
 
 ```bash
 # In your Xcode project directory
-curl -sL https://raw.githubusercontent.com/YOUR_USERNAME/xcode-claude-automation/main/setup-from-github.sh | bash
+curl -sL https://raw.githubusercontent.com/ericzhou129/xcode-claude-automation/main/setup-from-github.sh | bash
 ```
 
 ## 🎯 What This Solves

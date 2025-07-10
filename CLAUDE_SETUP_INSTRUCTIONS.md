@@ -18,13 +18,13 @@ First, verify:
 TEMP_DIR=$(mktemp -d)
 
 # Download the essential files from GitHub
-curl -sL https://raw.githubusercontent.com/YOUR_USERNAME/xcode-claude-automation/main/essential-files/build.sh -o "$TEMP_DIR/build.sh"
-curl -sL https://raw.githubusercontent.com/YOUR_USERNAME/xcode-claude-automation/main/essential-files/filter.py -o "$TEMP_DIR/filter.py"
-curl -sL https://raw.githubusercontent.com/YOUR_USERNAME/xcode-claude-automation/main/essential-files/fix.sh -o "$TEMP_DIR/fix.sh"
-curl -sL https://raw.githubusercontent.com/YOUR_USERNAME/xcode-claude-automation/main/essential-files/watch.sh -o "$TEMP_DIR/watch.sh"
-curl -sL https://raw.githubusercontent.com/YOUR_USERNAME/xcode-claude-automation/main/essential-files/monitor.sh -o "$TEMP_DIR/monitor.sh"
-curl -sL https://raw.githubusercontent.com/YOUR_USERNAME/xcode-claude-automation/main/essential-files/install-git-hook.sh -o "$TEMP_DIR/install-git-hook.sh"
-curl -sL https://raw.githubusercontent.com/YOUR_USERNAME/xcode-claude-automation/main/essential-files/config.sh -o "$TEMP_DIR/config.sh"
+curl -sL https://raw.githubusercontent.com/ericzhou129/xcode-claude-automation/main/essential-files/build.sh -o "$TEMP_DIR/build.sh"
+curl -sL https://raw.githubusercontent.com/ericzhou129/xcode-claude-automation/main/essential-files/filter.py -o "$TEMP_DIR/filter.py"
+curl -sL https://raw.githubusercontent.com/ericzhou129/xcode-claude-automation/main/essential-files/fix.sh -o "$TEMP_DIR/fix.sh"
+curl -sL https://raw.githubusercontent.com/ericzhou129/xcode-claude-automation/main/essential-files/watch.sh -o "$TEMP_DIR/watch.sh"
+curl -sL https://raw.githubusercontent.com/ericzhou129/xcode-claude-automation/main/essential-files/monitor.sh -o "$TEMP_DIR/monitor.sh"
+curl -sL https://raw.githubusercontent.com/ericzhou129/xcode-claude-automation/main/essential-files/install-git-hook.sh -o "$TEMP_DIR/install-git-hook.sh"
+curl -sL https://raw.githubusercontent.com/ericzhou129/xcode-claude-automation/main/essential-files/config.sh -o "$TEMP_DIR/config.sh"
 
 # Copy files to current directory
 cp "$TEMP_DIR"/*.sh .

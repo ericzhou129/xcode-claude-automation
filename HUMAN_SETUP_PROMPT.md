@@ -11,7 +11,7 @@ I need you to set up an automated Xcode build error → Claude Code analysis sys
 Please follow these steps:
 
 1. **Download automation files from GitHub**:
-   - Download these files from `https://raw.githubusercontent.com/YOUR_USERNAME/xcode-claude-automation/main/essential-files/`:
+   - Download these files from `https://raw.githubusercontent.com/ericzhou129/xcode-claude-automation/main/essential-files/`:
      - build.sh
      - filter.py
      - fix.sh
@@ -51,7 +51,7 @@ This automation will allow me to:
 - Run `./fix.sh` for manual build checks
 - Get instant Claude Code analysis of any Xcode build errors
 
-The GitHub repository with instructions is at: https://github.com/YOUR_USERNAME/xcode-claude-automation
+The GitHub repository with instructions is at: https://github.com/ericzhou129/xcode-claude-automation
 
 Please set this up now and let me know when it's ready to use.
 
@@ -62,5 +62,5 @@ Please set this up now and let me know when it's ready to use.
 If you prefer a simpler approach, you can also use this one-line prompt:
 
 ```
-Please download and set up the Xcode build automation system from https://github.com/YOUR_USERNAME/xcode-claude-automation - follow the CLAUDE_SETUP_INSTRUCTIONS.md file in the repo. Configure it for this project and let me know when it's ready.
+Please download and set up the Xcode build automation system from https://github.com/ericzhou129/xcode-claude-automation - follow the CLAUDE_SETUP_INSTRUCTIONS.md file in the repo. Configure it for this project and let me know when it's ready.
 ```
